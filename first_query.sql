@@ -119,3 +119,74 @@
 --         102,
 --         2
 --     );
+-- INSERT INTO employee
+-- VALUES (
+--         106,
+--         'josh',
+--         'zerka',
+--         '1901-12-09',
+--         'M',
+--         240000,
+--         NULL,
+--         NULL
+--     );
+-- INSERT INTO branch
+-- VALUES(3, 'Sidemen', 106, '1989-01-11');
+-- UPDATE employee
+-- SET branch_id = 3
+-- WHERE emp_id = 106;
+-- INSERT INTO employee
+-- VALUES (
+--         107,
+--         'vik',
+--         'indian',
+--         '2002-12-11',
+--         'M',
+--         500000,
+--         106,
+--         3
+--     );
+-- INSERT INTO employee
+-- VALUES (
+--         108,
+--         'simon',
+--         'minister',
+--         '1987-11-09',
+--         'M',
+--         250000,
+--         106,
+--         3
+--     );
+-- INSERT INTO employee
+-- VALUES (
+--         109,
+--         'harry',
+--         'autistic',
+--         '2002-09-11',
+--         'M',
+--         500000,
+--         106,
+--         3
+--     );
+-- INSERT INTO employee
+-- VALUES (
+--         110,
+--         'ethan',
+--         'pain',
+--         '1989-09-12',
+--         'M',
+--         50000,
+--         106,
+--         3
+--     );
+-- INSERT INTO employee
+-- VALUES (
+--         111,
+--         'ksi',
+--         'fatneek',
+--         '2000-02-21',
+--         'M',
+--         1000000,
+--         106,
+--         3
+--     );
