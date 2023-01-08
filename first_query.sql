@@ -201,3 +201,17 @@
 --         106,
 --         3
 --     );
+-- INSERT INTO branch_supplier
+-- VALUES(2, 'bill Cosby', 'sleeping pills');
+-- INSERT INTO branch_supplier
+-- VALUES(2, 'jeff dhamer', 'cook book');
+-- INSERT INTO branch_supplier
+-- VALUES(2, 'roadhog', 'shotguns');
+-- INSERT INTO branch_supplier
+-- VALUES(3, 'astra', 'cufflings');
+-- INSERT INTO branch_supplier
+-- VALUES(3, 'dank risu', 'jokes');
+-- INSERT INTO branch_supplier
+-- VALUES(3, 'arpit balla', 'funny jokes');
+-- INSERT INTO branch_supplier
+-- VALUES(3, 'wahifunnywala', 'really funny jokes');
