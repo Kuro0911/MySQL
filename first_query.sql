@@ -215,3 +215,17 @@
 -- VALUES(3, 'arpit balla', 'funny jokes');
 -- INSERT INTO branch_supplier
 -- VALUES(3, 'wahifunnywala', 'really funny jokes');
+-- INSERT INTO client
+-- VALUES(400, 'meta', 2);
+-- INSERT INTO client
+-- VALUES(401, 'amazon', 2);
+-- INSERT INTO client
+-- VALUES(402, 'netflix', 3);
+-- INSERT INTO client
+-- VALUES(403, 'google', 3);
+-- INSERT INTO client
+-- VALUES(404, 'microsoft', 2);
+-- INSERT INTO client
+-- VALUES(405, 'alibaba', 3);
+-- INSERT INTO client
+-- VALUES(406, 'prime', 2);
