@@ -239,6 +239,6 @@
 -- VALUES(101, 403, 2000);
 -- INSERT INTO works_with
 -- VALUES(105, 404, 1);
-SELECT *
-FROM employee
-WHERE birth_day LIKE '____-09%';
+-- SELECT *
+-- FROM employee
+-- WHERE birth_day LIKE '____-09%';
