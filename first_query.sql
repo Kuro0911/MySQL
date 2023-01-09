@@ -242,3 +242,29 @@
 -- SELECT *
 -- FROM employee
 -- WHERE birth_day LIKE '____-09%';
+-- SELECT first_name
+-- FROM employee
+-- UNION
+-- SELECT branch_name
+-- FROM branch;
+-- SELECT emp_id,
+--     first_name,
+--     last_name,
+--     branch_name
+-- FROM employee
+--     JOIN branch ON emp_id = mgr_id;
+-- SELECT first_name,
+--     last_name
+-- FROM employee
+-- WHERE emp_id IN (
+--         SELECT emp_id
+--         FROM works_with
+--         WHERE total_sales > 50000
+--     );
+-- SELECT client_name
+-- FROM client
+-- WHERE branch_id = (
+--         SELECT branch_id
+--         FROM branch
+--         WHERE mgr_id = 106
+--     );
