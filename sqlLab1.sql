@@ -23,3 +23,10 @@ TRUNCATE TABLE new_students;
 SELECT *
 FROM new_students;
 DROP TABLE new_students;
+SELECT name,
+    id
+FROM students
+WHERE age < 20;
+UPDATE students
+SET name = "old one"
+WHERE age > 19;
