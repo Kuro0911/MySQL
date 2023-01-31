@@ -1,0 +1,16 @@
+-- select max(salary) from emp
+-- select min(salary) from emp
+-- select count (*) from emp
+-- select count (salary) from emp
+-- select distinct (salary) from emp
+-- select Sum(salary) from emp
+-- select distinct(sum(Salary)) from emp
+-- select Avg salary from emp
+-- select upper ("welcome") from table name
+-- selet concat ("srm", "uni") from table_name
+-- select length('srm') from table_name  
+-- select replace('srm uni', "SRM", "anna" ) from table_name  
+-- select substr('srm uni',9,6) from table_name
+-- select translate("cold" , "ld", "ol") from table_name
+-- select rpad("hai", 4, '*') from table_name
+-- select lpad("hai", 4, '*') from table_name
