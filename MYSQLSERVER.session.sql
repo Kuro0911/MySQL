@@ -1,13 +1,6 @@
-(
-    SELECT sex,
-        farm_id
-    FROM slaves
-    WHERE farm_id = 102
-)
-union
-(
-    SELECT sex,
-        farm_id
-    FROM slaves
-    WHERE farm_id = 101
-);
+SELECT farms.farm_name,
+    AVG(slaves.age)
+FROM slaves,
+    farms
+WHERE slaves.farm_id = farms.farm_id
+GROUP BY slaves.farm_id;
