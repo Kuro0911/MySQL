@@ -1,6 +1,7 @@
-SELECT farms.farm_name,
-    AVG(slaves.age)
-FROM slaves,
-    farms
-WHERE slaves.farm_id = farms.farm_id
-GROUP BY slaves.farm_id;
+SELECT slave_name
+FROM slaves
+WHERE EXISTS (
+        SELECT age
+        FROM slaves
+        WHERE age < 6
+    );
